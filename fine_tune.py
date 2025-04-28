@@ -15,8 +15,7 @@ print(f"Uploaded File ID: {file.id}")
 # Step 2: Start fine-tuning
 fine_tune_job = openai_client.fine_tuning.jobs.create(
     training_file=file.id,
-    model="gpt-3.5-turbo",
-    n_epochs=2
+    model="gpt-3.5-turbo"
 )
 
 print("Fine-tuning started!")
