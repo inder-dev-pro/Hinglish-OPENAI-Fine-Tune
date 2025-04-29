@@ -7,7 +7,7 @@ We fine-tuned OpenAI’s `gpt-3.5-turbo` model on a small conversational Hinglis
 ```
 hinglish-voice-ai-finetune/
 │
-├── nb/
+├── data/
     dataset.jsonl          # Hinglish prompt-completion training pairs
 ├── fine_tune.py           # Script to upload + fine-tune model using OpenAI API
 ├── inference.py           # Test fine-tuned model on new prompts
